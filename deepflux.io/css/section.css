@@ -1,0 +1,31 @@
+.wrapper {
+
+    text-align: center;
+}
+.primary-title {
+    color: #3498DB;
+    font-size: 16px;
+    font-weight: 600;
+}
+.secondary-title {
+    color: #22244d;
+    font-size: 25px;
+    color: #515656
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.clogo {
+    height: 10%;
+    width:8%
+}
+span.special-text {
+    color: #3498DB;
+    font-weight: 600;
+
+}
+.content {
+    color: #808080;
+}

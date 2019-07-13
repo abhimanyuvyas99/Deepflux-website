@@ -1,0 +1,161 @@
+@media only screen and (min-width:768) and(max-width:1024px){
+#video .modal-body{height:500px}
+.whyUs{min-height:290px}
+}
+@media only screen and (max-width:767px){
+.whyUs{min-height:auto}
+.whyUsRow{text-align: center}
+.whyUs svg, .whyUs img{width:20%;margin:0 auto 20px}
+.whyUs-scope .whyUsRow{margin-top:70px;margin-bottom:70px}
+    .video{margin:25px auto 50px}
+}
+
+@media only screen and (min-width:1024px){
+}
+@media only screen and (min-width:992px){
+.flexStyle{display:flex}
+}
+
+@media only screen and (max-width:991px){
+.dmp-service{width:calc(100% - 6%);margin:5% auto;float:none}
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logos{width:25%}
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 30px 12px;
+    }
+    .header-area {
+        padding-top: 80px;
+    }
+    .box {
+        padding: 30px 15px;
+        width: 100%;
+        float: none
+    }
+    .box2 {
+        padding: 30px 15px;
+        width: 100%;
+        float: none
+    }
+    .box3 { margin: 0px;
+        padding:70px 15px;
+        width: 100%;
+        float: none;
+        height:400px
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.logos{width:33%}
+    body {
+        font-size: 13px;
+    }
+    .header-text p, .box3 p{font-size:14px}
+    .header-area {
+        height: auto;
+    }
+    .box {
+        padding: 30px 15px;
+        width: 100%;
+        float: none
+    }
+    .box2 {
+        padding: 30px 15px;
+        width: 100%;
+        float: none
+    }
+    .box3 { margin: 0px;
+        padding:70px 15px;
+        width: 100%;
+        float: none;
+        height:400px
+    }
+    
+    .page-title h2,
+    .header-text h2, .box3 h4 {
+        font-size: 24px;
+    }
+    .footer-middle h2, .footer-middle p, .social-menu{text-align: center}
+    .box2 h4, .box h4{font-size:18px}
+    .mainmenu-area .navbar-toggle {
+        margin-top:16px;
+        margin-bottom:10px;
+    }
+    .mainmenu-area .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+    .header-text1 h2{margin-top:100px}
+    .header-text1 p{margin-bottom:50px}
+    .pt90{padding-top:40px}
+    .social-menu{padding:10px 0}
+    .mainmenu-area.affix .navbar-toggle .icon-bar {
+        background-color: #3498DB
+    }
+    .mainmenu-area.affix .deepFluxLogo{margin-top:16px}
+    .mainmenu-area #primary-menu {
+        background-color: #3498DB;
+        padding-bottom: 20px;
+    }
+    
+    .navbar-nav .open .dropdown-menu > li > a {font-size: 13px;}
+    .mainmenu-area.affix #primary-menu > ul > li .dropdown button {color: #fff !important;}
+    .mainmenu-area.affix #primary-menu > ul > li.active > a, .mainmenu-area.affix #primary-menu > ul > li > a{color:#fff}
+    .mainmenu-area.affix #primary-menu > ul > li.active > a, .mainmenu-area.affix #primary-menu > ul > li > a:hover{color:#ffe44c}
+
+    .mainmenu-area #primary-menu ul {
+        overflow-y: auto;
+        max-height: 70vh;
+        margin: 0;
+    }
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 15px;
+        overflow: hidden;
+    }
+    .box {
+        padding: 30px 15px;
+    }
+    .box .box-icon {
+        height: auto;
+    }
+    .mainmenu-area .logo {
+        margin-left: 15px;
+    }
+    .eventsBox{min-height:auto;position:static}
+    .eventsFooter{position:static;margin-bottom:20px}
+    .event-header-area .header-text1 h1{
+        width:100%;
+        margin: 100px auto 20px;
+        line-height: inherit;
+    }
+    .navbar-collapse li .dropdown button{
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    .navbar-collapse li .dropdown .dropdown-menu{
+        width: 100%;
+        background: #fff;
+        text-align: center;
+    }
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 480px){
+ .event-header-area .header-text1 p{margin-bottom:10px}    
+}
