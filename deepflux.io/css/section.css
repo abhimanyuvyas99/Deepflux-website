@@ -6,13 +6,24 @@
     color: #3498DB;
     font-size: 16px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 .secondary-title {
     color: #22244d;
     font-size: 25px;
-    color: #515656
+    color: #515656;
+    margin-bottom: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
 
 }
+@media screen and (max-width: 900px) {
+    .clogo {
+        height: 10%;
+        width: 17% !important;
+    }
+  }
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -28,4 +39,7 @@ span.special-text {
 }
 .content {
     color: #808080;
+    font-size: 18px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
