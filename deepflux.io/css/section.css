@@ -1,6 +1,8 @@
 .wrapper {
 
     text-align: center;
+    background-color: #f3f3f3;
+
 }
 .primary-title {
     color: #3498DB;
@@ -10,17 +12,21 @@
 }
 .secondary-title {
     color: #22244d;
-    font-size: 25px;
-    color: #515656;
-    margin-bottom: 10px;
     padding-left: 4%;
     padding-right: 4%;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 6%;
 
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     .clogo {
-        height: 10%;
-        width: 17% !important;
+        width: 50% !important;
+        padding: 8%;
+    }
+    .content {
+        padding-left: 13% !important;
+        padding-right: 13% !important;
     }
   }
 
@@ -30,7 +36,7 @@ body{
 
 .clogo {
     height: 10%;
-    width:8%
+    width: 8%;
 }
 span.special-text {
     color: #3498DB;
@@ -40,6 +46,14 @@ span.special-text {
 .content {
     color: #808080;
     font-size: 18px;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 21%;
+    padding-top: 2%;
+    padding-right: 21%;
+    padding-bottom: 2%;
 }
+
+.logo-container {
+    padding-bottom: 4%;
+}
+
+
